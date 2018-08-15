@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Interactive Story</string>
+    <string name="app_name">Signals From Mars</string>
+    <string name="key_name">name</string>
+    <string name="signal_from_mars_title_page">Signal From Mars Title Page</string>
+    <string name="start_your_adventure">Start Your Adventure</string>
+    <string name="enter_your_name">Enter Your Name</string>
 </resources>
