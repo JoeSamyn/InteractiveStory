@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.samyn.joseph.interactivestory.R;
+import com.samyn.joseph.interactivestory.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
 
@@ -18,6 +19,5 @@ public class StoryActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String name = intent.getStringExtra(getString(R.string.key_name));
         Log.d(TAG, name);
-
     }
 }
