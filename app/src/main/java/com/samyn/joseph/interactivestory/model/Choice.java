@@ -1,21 +1,21 @@
 package com.samyn.joseph.interactivestory.model;
 
 public class Choice {
-    private int imageId;
+    private int textId;
     private int nextPage;
 
-    public Choice(int imageId, int nextPage) {
-        this.imageId = imageId;
+    public Choice(int textId, int nextPage) {
+        this.textId = textId;
         this.nextPage = nextPage;
     }
 
-    public int getImageId() {
+    public int getTextId() {
 
-        return imageId;
+        return textId;
     }
 
-    public void setImageId(int imageId) {
-        this.imageId = imageId;
+    public void setTextId(int imageId) {
+        this.textId = imageId;
     }
 
     public int getNextPage() {

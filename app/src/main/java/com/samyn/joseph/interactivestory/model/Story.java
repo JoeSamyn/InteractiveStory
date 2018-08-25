@@ -37,4 +37,10 @@ public class Story {
 
     }
 
+    public Page getPage(int pageNumber) {
+        if(pageNumber > page.length){
+            pageNumber = 0;
+        }
+        return page[pageNumber];
+    }
 }
